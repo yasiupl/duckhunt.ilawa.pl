@@ -1,0 +1,5 @@
+Niebo: #3fc0ff
+Trawa łagodna: #84d313
+Trawa ciemna: #005200
+
+pies #c84d0c

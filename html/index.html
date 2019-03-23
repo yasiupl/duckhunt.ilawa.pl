@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html ⚡>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#ffff00">
+  <meta name="description" content="Duck Hunt w Iławie!" />
+  <meta name="keywords" content="Duck Hunt Iława" />
+  <meta property="og:title" content="Duck Hunt Iława" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://duckhunt.ilawa.pl/img/dh.jpg" />
+  <meta property="og:url" content="https://duckhunt.ilawa.pl" />
+  <meta property="og:description" content="Z lokalnego schroniska dla dzikich zwierząt uciekły ponad 64 małe kaczuszki. Pomóż nam je odnaleźć!" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Duck Hunt Iława" />
+  <meta name="twitter:description" content="Z lokalnego schroniska dla dzikich zwierząt uciekły ponad 64 małe kaczuszki. Pomóż nam je odnaleźć!" />
+  <meta name="twitter:image" content="https://duckhunt.ilawa.pl/img/dh.jpg" />
+  <link rel="manifest" href="/manifest.json" />
+  <title>Duck Hunt Iława</title>
+
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71778687-17"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-71778687-17');
+
+    console.log("From yasiu.pl, with love!")
+  </script>
+
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #3fc0ff;
+      color: white;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+      font-family: 'VT323', monospace;
+      font-smooth: never;
+      -webkit-font-smoothing: none;
+      text-align: center;
+
+      color: white;
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+    #grass {
+      position: fixed;
+      display: block;
+      background-image: url("./img/grass.gif");
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 24px;
+    }
+
+    #bush {
+      position: fixed;
+      display: block;
+      background-image: url("./img/bush.gif");
+      bottom: 12px;
+      right: 20%;
+      height: 42px;
+      width: 32px;
+      z-index: -1;
+    }
+
+    #tree {
+      position: fixed;
+      display: block;
+      background-image: url("./img/tree.gif");
+      bottom: 12px;
+      left: 10%;
+      height: 128px;
+      width: 86px;
+      z-index: -1;
+
+    }
+
+    #content {
+      width: 70vmin;
+      z-index: -2;
+      padding-bottom: 32px;
+    }
+
+    #logo {
+      margin-top: 32px;
+      width: 60vmin;
+      object-fit: cover;
+    }
+
+    #background {
+      zoom: 2.5;
+    }
+
+    h1 {
+      color: yellow;
+    }
+    a {
+      color: yellow;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <center>
+    <div id="content">
+      <img id="logo" src="./img/duckhunt.gif">
+      <h1>Sezon na kaczki w Iławie rozpoczęty!</h1>
+      <h2>Miej oczy szeroko otwarte! Z lokalnego schroniska dla dzikich zwierząt uciekły ponad 64 małe kaczuszki. Pomóż nam je odnaleźć!
+      </br>
+      </br>
+      Użyj hasztagu #DuckHuntIława na <a href="https://www.facebook.com/hashtag/duckhuntiława" target="_blank">Facebooku</a>, <a href="https://www.instagram.com/explore/tags/duckhunti%C5%82awa/" target="_blank">Instagramie</a> bądź <a href="https://twitter.com/hashtag/duckhuntiława" target="_blank">Twitterze</a> aby podzielić się z nami gdzie odnalazłeś nasze zguby.
+    </br>
+    </br>
+    Śledź nas na <a href="https://instagram.com/duckhuntofficial" target="_blank">Instagramie (@duckhuntofficial)</a> aby otrzymywać wskazówki!
+  </br>
+  </br>
+    Dla najbardziej pomocnej osoby bądź grupy poszukiwaczy przewidziana jest nagroda!</h2>
+
+  </br>
+  </br>
+  Dołącz do zabawy:
+  <a href="https://instagram.com/duckhuntofficial" target="_blank">Instagram</a> | <a href="https://www.facebook.com/pg/Duck-Hunt-Iława-239025550109265/" target="_blank">Facebook</a> | <a href="https://twitter.com/duckhuntilawa" target="_blank">Twitter</a>
+</br>
+  <h1>#DuckHuntIława</h1>
+
+    </div>
+  </center>
+  <div id="background">
+    <div id="grass"></div>
+    <div id="bush"></div>
+    <div id="tree"></div>
+  </div>
+</body>
